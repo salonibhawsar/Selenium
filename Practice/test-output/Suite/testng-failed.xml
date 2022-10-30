@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="URL" value="https://www.instagram.com/accounts/login/"/>
+    <classes>
+      <class name="com.inn.selenium.Instagram">
+        <methods>
+          <include name="logIn" invocation-numbers="0"/>
+          <include name="closeWindow"/>
+        </methods>
+      </class> <!-- com.inn.selenium.Instagram -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
